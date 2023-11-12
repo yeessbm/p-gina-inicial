@@ -1,0 +1,115 @@
+/* 
+    selector {
+    propiedad : valor ;
+    propiedad : valor ;
+    }
+*/
+
+body {
+    /* Cambiar color de fondo */
+    background-color: #FFFBF5;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+header nav .title{
+    text-align: center;
+    margin: 0 auto;
+    font-size: xx-large;
+    color: #363062;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+
+header nav .nav-right-section {
+    color: rgb(253, 253, 253);
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: xx-large;
+}
+
+nav .nav-right-section title{
+    justify-content: right;
+}
+
+nav .nav-right-section a{
+    color: #F8EDE3;
+    margin-right: 30px;
+    font-weight: 500;
+    font-family: 'Amatic SC', sans-serif;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .nav-right-section{
+    margin-right: 20px;
+    background-color: #85586F; 
+}
+
+main .inicio{
+    background-position: center;
+    align-items: center;
+    color: black;
+    font-size: small;
+    border: 2px solid #22092C;
+}
+
+main .about-me{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+/* Título de los libros */
+main .about-me cont{
+    margin-left: 500px;
+    background-color: rgb(89, 98, 48);
+}
+
+/* Distribución*/
+main .inf{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+
+}
+
+main .books{
+    width: 400px;
+    text-align: center;
+}
+
+main .books h3{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: x-large;
+    color: #7A3E65;
+    border: 2px solid #363062;
+}
+
+/* Es la descripción de los libros */
+main .script{
+    margin: 30px;
+    color: black;
+    text-align: justify;
+}
+
+main .sugerencias h3{
+    width: 100%;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: x-large;
+    color: #7A3E65;
+    border: 2px solid#363062;
+    text-align: center;
+}
+
+
+main .sub img{
+    align-items: center;
+}
+
