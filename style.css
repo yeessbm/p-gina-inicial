@@ -29,46 +29,62 @@ header nav .nav-right-section {
     font-size: xx-large;
 }
 
-nav .nav-right-section title{
-    justify-content: right;
-}
-
+/* Son las secciones de la barra de navegación */
 nav .nav-right-section a{
     color: #F8EDE3;
     margin-right: 30px;
-    font-weight: 500;
     font-family: 'Amatic SC', sans-serif;
-    margin-right: 20px;
-}
-
-a{
+    margin-right: 15px;
     text-decoration: none;
 }
 
+/* Le da estilo a la barra de navegación */
 nav .nav-right-section{
-    margin-right: 20px;
+    width: auto;
     background-color: #85586F; 
 }
 
+/* El texto de bienvenida */
 main .inicio{
-    background-position: center;
+    background-color: #e2d0d9b2;
     align-items: center;
     color: black;
-    font-size: small;
-    border: 2px solid #22092C;
+    font-size: medium;
+    font-family: font-family 'Chakra Petch', sans-serif;
+}
+
+main .inicio h3{
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    color: #7A3E65;
+    font-size: xx-large;
 }
 
 main .about-me{
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    
+    margin-top: 5%;
+    background-color: #818FB4;
+}
+
+main .about-me h3{
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    color: #363062;
+    font-size: xx-large;
+}
+
+main .about-me p{
+    margin-left: 8%;
+    font-size: medium;
 }
 
 /* Título de los libros */
 main .about-me cont{
     margin-left: 500px;
-    background-color: rgb(89, 98, 48);
+    background-color: aqua;
+    width: fit-content;
+    text-align: center;
 }
 
 /* Distribución*/
@@ -77,10 +93,11 @@ main .inf{
     text-align: center;
     justify-content: center;
     width: auto;
+    background-color: #e2d0d9b2;
 
 }
-
 main .books{
+    margin-top: 5%;
     width: 400px;
     text-align: center;
 }
@@ -89,7 +106,9 @@ main .books h3{
     font-family: 'Amatic SC', sans-serif;
     font-size: x-large;
     color: #7A3E65;
-    border: 2px solid #363062;
+    border-bottom: 2px solid #363062;
+    width: fit-content;
+    text-align: center;
 }
 
 /* Es la descripción de los libros */
@@ -97,6 +116,8 @@ main .script{
     margin: 30px;
     color: black;
     text-align: justify;
+    font-size: medium;
+    border-bottom: 2px solid #363062;
 }
 
 main .sugerencias h3{
@@ -104,12 +125,18 @@ main .sugerencias h3{
     font-family: 'Amatic SC', sans-serif;
     font-size: x-large;
     color: #7A3E65;
-    border: 2px solid#363062;
+    border-bottom: 2px solid;
     text-align: center;
 }
 
-
-main .sub img{
-    align-items: center;
+main .sugerencias{
+    text-align: center;
 }
 
+main .sor{
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: x-large;
+    color: #7A3E65;
+    border-bottom: 2px solid;
+}
