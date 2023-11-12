@@ -1,2 +1,2 @@
-# p-gina-inicial
+# pagina-inicial
 Creación de mi página web
